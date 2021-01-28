@@ -2,14 +2,14 @@ package org.xpdojo.bank;
 
 public class Account {
 
-    int balance = 0 ;
+    int currentBalance = 0 ;
 
     public void deposit (int amountToDepoit) {
-         // TODO : Deposit Money
+         currentBalance = currentBalance + amountToDepoit;
     }
 
-    public float getBalance(){
-        return balance;
+    public float getCurrentBalance(){
+        return currentBalance;
     }
 
 }
