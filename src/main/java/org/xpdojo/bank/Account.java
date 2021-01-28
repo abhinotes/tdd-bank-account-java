@@ -2,13 +2,13 @@ package org.xpdojo.bank;
 
 public class Account {
 
-    int currentBalance = 0 ;
+    double currentBalance = 0 ;
 
-    public void deposit (int amountToDepoit) {
+    public void deposit (double amountToDepoit) {
          currentBalance = currentBalance + amountToDepoit;
     }
 
-    public float getCurrentBalance(){
+    public double getCurrentBalance(){
         return currentBalance;
     }
 
